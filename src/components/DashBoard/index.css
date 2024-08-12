@@ -1,0 +1,40 @@
+.completed-orders-heading {
+  color: green;
+}
+.pending-orders-heading {
+  color: blue;
+}
+/* table {
+    border: 1px solid gray;
+  } */
+table th {
+  border: 1px solid gray;
+  padding: 5px;
+}
+/* table tbody {
+   
+  } */
+table tbody td {
+  border: 1px solid gray;
+  padding: 5px;
+}
+.pending-table {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.recent-order {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: blanchedalmond;
+  font-weight: 800;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.completed-order-body tr:last-child {
+  color: red;
+}
