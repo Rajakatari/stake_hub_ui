@@ -1,8 +1,23 @@
-# React + Vite
+# Trading Orders Platform (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the frontend of the Trading Orders Platform, a web application designed for placing and viewing trading orders. The interface is responsive, styled with Bootstrap, and includes custom CSS for additional styling.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
+
+The Trading Orders Platform frontend is built with React.js, integrating with a backend API to manage trading orders. The application features real-time updates, a responsive design, and a user-friendly interface.
+
+## Features
+
+- **Order Placement**: Allows users to place buy/sell orders with specified quantities and prices.
+- **Order Dashboard**: Displays pending and completed orders, with real-time updates.
+- **Responsive Design**: The UI adapts to different screen sizes for a consistent user experience.
+
+
+
+
+
+    
+    
+   
+
