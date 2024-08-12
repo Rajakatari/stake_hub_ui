@@ -38,3 +38,8 @@ table tbody td {
 .completed-order-body tr:last-child {
   color: red;
 }
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

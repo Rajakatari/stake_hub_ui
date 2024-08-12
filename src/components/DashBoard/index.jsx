@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import Spinner from "react-bootstrap/Spinner";
+
 import "./index.css";
 
 const apiConstants = {
@@ -30,7 +32,11 @@ const DashBoard = () => {
   };
 
   const renderLoader = () => {
-    return <div>Loading...</div>;
+    return (
+      <p className="spinner">
+        <Spinner animation="border" role="status"></Spinner> Fetching Details...
+      </p>
+    );
   };
 
   const deleteCompletedOrderItem = async (id) => {

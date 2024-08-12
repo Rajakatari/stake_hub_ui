@@ -6,8 +6,12 @@ import "./App.css";
 const App = () => {
   return (
     <div className="main-container">
-      <DashBoard />
-      <OrderForm />
+      <h1 className="heading">Trading Orders Platform</h1>
+      <hr />
+      <div className="below-part-container">
+        <OrderForm />
+        <DashBoard />
+      </div>
     </div>
   );
 };
